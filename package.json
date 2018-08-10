@@ -1,0 +1,28 @@
+{
+    "name": "lifestylecxtest",
+    "version": "1.0.0",
+    "description": "This is a test.",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.c.editorconfigom/rageix/LifestyleCXTest.git"
+    },
+    "author": "Brad Bertsche",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/rageix/LifestyleCXTest/issues"
+    },
+    "homepage": "https://github.com/rageix/LifestyleCXTest#readme",
+    "dependencies": {
+        "async": "^2.6.1",
+        "lodash": "^4.17.10",
+        "request": "^2.87.0",
+        "request-promise": "^4.2.2",
+        "rsvp": "^4.8.3",
+        "winston": "^3.0.0"
+    }
+}
