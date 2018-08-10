@@ -23,7 +23,7 @@ templates.load('500', './templates/500.html');
 templates.load('titles', './templates/titles.html');
 
 // create our server
-const server = http.createServer(router.requestHandler)
+http.createServer(router.requestHandler)
     .listen(port, (err) => {
 
     if (err) {

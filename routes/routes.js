@@ -163,7 +163,7 @@ let self = module.exports = {
             // loop responses
             for (let i = 0; i < responses.length; i++) {
 
-                titles += self.processResponse(responses[i].response.href, null, responses[i]);
+                titles += self.processResponse(responses[i].request.href, null, responses[i]);
 
             }
 
@@ -175,6 +175,7 @@ let self = module.exports = {
 
         }).finally(() => {
 
+            // render our response
             response.end(templates.render('titles', {
                 titles: titles
             }))
